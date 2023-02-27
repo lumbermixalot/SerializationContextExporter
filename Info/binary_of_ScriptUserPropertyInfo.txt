@@ -1,0 +1,65 @@
+00 00 00 00 03 08 6c d9
+f5 be b2 cd 41 bb 9d a5
+1b 05 35 48 cf 56 5d 5e
+23 7e 06 03 aa ab 3f 5c
+47 5a 66 9e bc d5 fa 4d
+b3 53 c9 67 61 6c 69 62
+00 59 99 58 fb 55 a0 ca
+88 0c af e4 43 cb 92 6c
+59 ac 48 49 61 12 01 00
+59 b5 bd 24 65 a0 ca 88
+0c af e4 43 cb 92 6c 59
+ac 48 49 61 12 00 00 00
+00
+
+AzFramework::ScriptUserPropertyInfo msg;
+msg.m_isRead = true;
+msg.m_isWrite = false;
+msg.m_name = "galib";
+
+
+
+AzFramework::ScriptDebugRequest msg(AZ_CRC_CE("AttachDebugger"), "Default"); Size 132
+0x0000016EEB69EE30  00 00 00 00 03 08 21 37  ......!7
+0x0000016EEB69EE38  e0 1a f2 ae 41 37 a1 7e  à.ò®A7¡~
+0x0000016EEB69EE40  6b 82 f3 b7 e4 de 48 d4  k.ó·äÞHÔ
+0x0000016EEB69EE48  92 57 35 85 12 32 8c 94  ’W5..2Œ”
+0x0000016EEB69EE50  9d 4f 0c b4 8d 77 c2 6c  .O.´.wÂl
+0x0000016EEB69EE58  20 74 43 79 6d 72 e3 99   tCymrã™
+0x0000016EEB69EE60  d6 59 79 33 47 cd 4f c8  ÖYy3GÍOÈ
+0x0000016EEB69EE68  b9 11 63 f3 e2 b0 99 3a  ..cóâ°™:
+0x0000016EEB69EE70  08 00 00 00 00 b6 be 08  .....¶..
+0x0000016EEB69EE78  36 00 00 5c 3b 97 8f 9f  6..\;—.Ÿ
+0x0000016EEB69EE80  43 da 90 6b 7d ef 4c a8  CÚ.k}ïL¨
+0x0000016EEB69EE88  97 90 85 41 06 d3 f9 83  —..A.Óùƒ
+0x0000016EEB69EE90  65 90 ff 36 00 5f e2 5d  e.ÿ6._â]
+0x0000016EEB69EE98  85 7e 03 aa ab 3f 5c 47  .~.ª«?\G
+0x0000016EEB69EEA0  5a 66 9e bc d5 fa 4d b3  Zfž.ÕúM.
+0x0000016EEB69EEA8  53 c9 44 65 66 61 75 6c  SÉDefaul
+0x0000016EEB69EEB0  74 00 00 00
+
+
+AzFramework::ScriptDebugEnumLocalsResult msg;
+msg.m_names.push_back("Galib");
+msg.m_names.push_back("Tania");
+Size 153
+0x000001D1B1DE0898  00 00 00 00 03 08 20 17  ...... .
+0x000001D1B1DE08A0  01 dd 0b 74 48 86 ab 84  .Ý.tH.«.
+0x000001D1B1DE08A8  93 bd b3 38 a8 dd 48 d4  “..8¨ÝHÔ
+0x000001D1B1DE08B0  92 57 35 85 12 32 8c 94  ’W5..2Œ”
+0x000001D1B1DE08B8  9d 4f 0c b4 8d 77 c2 6c  .O.´.wÂl
+0x000001D1B1DE08C0  20 74 43 79 6d 72 e3 99   tCymrã™
+0x000001D1B1DE08C8  d6 59 79 33 47 cd 4f c8  ÖYy3GÍOÈ
+0x000001D1B1DE08D0  b9 11 63 f3 e2 b0 99 3a  ..cóâ°™:
+0x000001D1B1DE08D8  08 00 00 00 00 f8 ab 68  .....ø«h
+0x000001D1B1DE08E0  5e 00 00 48 f2 33 49 40  ^..Hò3I@
+0x000001D1B1DE08E8  99 da d0 bc 74 0e 5e 82  ™ÚÐ.t.^.
+0x000001D1B1DE08F0  82 6b 8f c7 96 8c c0 2c  .k.Ç–ŒÀ,
+0x000001D1B1DE08F8  5d 41 40 5e 39 03 aa ab  ]A@^9.ª«
+0x000001D1B1DE0900  3f 5c 47 5a 66 9e bc d5  ?\GZfž.Õ
+0x000001D1B1DE0908  fa 4d b3 53 c9 47 61 6c  úM.SÉGal
+0x000001D1B1DE0910  69 62 00 5d 41 40 5e 39  ib.]A@^9
+0x000001D1B1DE0918  03 aa ab 3f 5c 47 5a 66  .ª«?\GZf
+0x000001D1B1DE0920  9e bc d5 fa 4d b3 53 c9  ž.ÕúM.SÉ
+0x000001D1B1DE0928  54 61 6e 69 61 00 00 00  Tania...
+0x000001D1B1DE0930  00

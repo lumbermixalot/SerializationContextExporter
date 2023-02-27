@@ -1,0 +1,18 @@
+{
+    "Amazon": {
+        "AssetProcessor": {
+            "Settings": {
+                "ScanFolder SerializationContextExporter/Assets": {
+                    "watch": "@GEMROOT:SerializationContextExporter@/Assets",
+                    "recursive": 1,
+                    "order": 101
+                },
+                "ScanFolder SerializationContextExporter/Registry": {
+                    "watch": "@GEMROOT:SerializationContextExporter@/Registry",
+                    "recursive": 1,
+                    "order": 102
+                }
+            }
+        }
+    }
+}

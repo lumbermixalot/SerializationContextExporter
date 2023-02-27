@@ -1,0 +1,31 @@
+{
+    "gem_name": "SerializationContextExporter",
+    "version": "1.0.0",
+    "display_name": "SerializationContextExporter",
+    "license": "MIT",
+    "license_url": "",
+    "origin": "Galib Arrieta",
+    "origin_url": "https://github.com/lumbermixalot/SerializationContextExporter",
+    "type": "Code",
+    "summary": "A Gem that exports symbols in the serialization context according to user defined filters",
+    "canonical_tags": [
+        "Gem"
+    ],
+    "user_tags": [
+        "SerializationContextExporter",
+        "Editor",
+        "RemoteTools"
+    ],
+    "platforms": [
+        "Windows",
+        "Linux"
+    ],
+    "icon_path": "",
+    "requirements": "EditorPythonBindings, RemoteTools",
+    "documentation_url": "https://github.com/lumbermixalot/SerializationContextExporter/wiki",
+    "dependencies": [],
+    "repo_uri": "https://github.com/lumbermixalot/SerializationContextExporter",
+    "compatible_engines": [],
+    "engine_api_dependencies": [],
+    "restricted": "SerializationContextExporter"
+}
